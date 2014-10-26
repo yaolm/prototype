@@ -2,11 +2,12 @@
 <html>
 	<head>
     	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    	<link rel="stylesheet" href="css/metroUI/metro-bootstrap.css" />
-    	<link rel="stylesheet" href="css/metroUI/metro-bootstrap-responsive.css" />
-    	<script src="js/jquery/jquery.min.js"></script>
-    	<script src="js/jquery/jquery.widget.min.js"></script>
-    	<script src="js/metroUI/metro.min.js"></script>
+    	<link href="css/metro-bootstrap.css" rel="stylesheet" />
+    	<link href="css/metro-bootstrap-responsive.css" rel="stylesheet" />
+        <link href="css/iconFont.css" rel="stylesheet">
+    	<script src="js/jquery.min.js"></script>
+    	<script src="js/jquery.widget.min.js"></script>
+    	<script src="js/metro.min.js"></script>
     	<link href="css/mystyle.css" rel="stylesheet" />
     	<style></style>
 	</head>
@@ -15,7 +16,7 @@
             <h1><strong>此处应有logo！</strong>星巴克<small class="on-right">后台管理系统</small></h1>
             <nav class="navigation-bar">
                 <div class="navigation-bar-content">
-                    <div class="element"><strong>此处应有图片！</strong>导航栏</div>
+                    <div class="element"><span class="icon-home"></span>导航栏</div>
                     <span class="element-divider"></span>
                     <div class="element">
                         <a href="#" class="dropdown-toggle">采购管理</a>
@@ -86,6 +87,35 @@
                 </div>
             </nav>
             
+            <div class="tile-area">
+                <div class="tile double double-vertical bg-green">
+                    <div class="tile-content icon">
+                        <i class="icon-cog"></i>
+                    </div>
+                    <div class="tile-status">
+                        <div class="label">基本设置</div>
+                    </div>
+                </div>
+                <div class="tile double bg-lightBlue">
+                    <div class="tile-content icon">
+                        <i class="icon-paypal"></i>
+                    </div>
+                    <div class="tile-status">
+                        <div class="label">采购管理</div>
+                    </div>
+                </div>
+                <div class="tile bg-violet">
+                    <div class="tile-content icon">
+                        <i class="icon-flag"></i>
+                    </div>
+                    <div class="tile-status">
+                        <div class="label">销售管理</div>
+                    </div>
+                </div>
+                <div class="tile">仓库管理</div>
+                <div class="tile double">资金管理</div>
+                <div class="tile double">财务管理</div>
+            </div>
         </div>
 	</body>
 </html>
