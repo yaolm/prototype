@@ -113,33 +113,66 @@
             </nav>
             
             <div class="tile-area">
-                <div class="tile double double-vertical bg-green">
+                <div class="tile double double-vertical live bg-darkBlue" data-role="live-tile" data-effect="slideup" data-click="transform">
                     <div class="tile-content icon">
-                        <i class="icon-cog"></i>
+                        <i class="icon-droplet"></i>
+                    </div>
+                    <div class="tile-content fg-white" style="padding:10px;">
+                        <i class="icon-droplet"></i>库存信息
+                        <div style="font-size:50%;">
+                            <ul class="fg-white">
+                                <li>咖啡豆 blahblahblah</li>
+                                <li>方糖 blahblahblah</li>
+                                <li>Blah blahblahblah</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="tile-status">
-                        <div class="label">基本设置</div>
+                        <div class="name">
+                            仓库管理
+                        </div>
                     </div>
                 </div>
-                <div class="tile double bg-lightBlue">
+                <div class="tile double bg-lightBlue" data-click="transform">
                     <div class="tile-content icon">
                         <i class="icon-paypal"></i>
                     </div>
                     <div class="tile-status">
-                        <div class="label">采购管理</div>
+                        <div class="name">采购管理</div>
                     </div>
                 </div>
-                <div class="tile bg-violet">
+                <div class="tile bg-violet" data-click="transform">
                     <div class="tile-content icon">
                         <i class="icon-flag"></i>
                     </div>
                     <div class="tile-status">
-                        <div class="label">销售管理</div>
+                        <div class="name">销售管理</div>
                     </div>
                 </div>
-                <div class="tile">仓库管理</div>
-                <div class="tile double">资金管理</div>
-                <div class="tile double">财务管理</div>
+                <div class="tile bg-green" data-click="transform">
+                    <div class="tile-content icon">
+                        <i class="icon-cog"></i>
+                    </div>
+                    <div class="tile-status">
+                        <div class="name">基本设置</div>
+                    </div>
+                </div>
+                <div class="tile double bg-darkGreen" data-click="transform">
+                    <div class="tile-content icon">
+                        <i class="icon-dollar-2"></i>
+                    </div>
+                    <div class="tile-status">
+                        <div class="name">资金管理</div>
+                    </div>
+                </div>
+                <div class="tile double bg-olive" data-click="transform">
+                    <div class="tile-content icon">
+                        <i class="icon-checkmark"></i>
+                    </div>
+                    <div class="tile-status">
+                        <div class="name">知识管理</div>
+                    </div>
+                </div>
             </div>
         </div>
 	</body>
